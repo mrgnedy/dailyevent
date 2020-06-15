@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "86357463152",
+    "firebase_url": "https://events-aa555.firebaseio.com",
+    "project_id": "events-aa555",
+    "storage_bucket": "events-aa555.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86357463152:android:96a4786ddf423aae9ee4b5",
+        "android_client_info": {
+          "package_name": "com.khattab.dailyevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86357463152-9jiae9ods15nm03hu8k4206e5fj2i7h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqmFZ3uS9ylxo3ajBikyUq_gjg6rVL_v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86357463152-9jiae9ods15nm03hu8k4206e5fj2i7h2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "86357463152-np810vmn6cneal2sueg0tf189sr0avts.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.khattab.events"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
