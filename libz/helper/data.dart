@@ -1,0 +1,12 @@
+String Token = "Token";
+String Email = "Email";
+String Id = "Id";
+String IMAGEURL="http://daillyevent.net/public/dash/assets/img/";
+String NOTIFY="notify";
+String ProfileImage="ProfileImage";
+String Name = "Name";
+String JOB= "JOB";
+String LAT= "LAT";
+String LONG="LONG";
+String MobileNumber="Mobile";
+String Address="Address";
