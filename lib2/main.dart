@@ -1,12 +1,9 @@
-
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_map_location_picker/generated/i18n.dart'
-    as location_picker;
+import 'package:google_map_location_picker/generated/i18n.dart' as location_picker;
 
-import 'Splash (1).dart';
-
+import 'Splash.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
@@ -16,25 +13,27 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
-  @override
+    final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+    @override
   void initState() {
     // TODO: implement initState
-    WidgetsFlutterBinding.ensureInitialized();
+       WidgetsFlutterBinding.ensureInitialized();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setPreferredOrientations([
+      SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
     ]);
     return MaterialApp(
-      // title: 'Flutter Demo',
-
-      debugShowCheckedModeBanner: false,
+     // title: 'Flutter Demo',
+  
+ 
+     debugShowCheckedModeBanner: false,
       home: SplashPage(),
     );
   }
 }
+
